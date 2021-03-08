@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+    </script>
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Asap' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical - Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main-doc">
+        <h1>Welcome to the JavaScript World</h1>
+
+         <section class="main-section" id="Introduction">
+            <header>
+                <h3>Introduction</h3>
+            </header>
+                <article>
+                    <p>Welcome to JavaScript 101 – First Programming Steps!</p>
+                    <p>You’ve just taken your first steps towards becoming a JavaScript programmer!</p> 🎉
+                    <p>This course will teach you the basics of JavaScript, one of the core pillars of both web development and HTML5 game
+                    development.</p>
+                    <p>By learning these skills, you’re setting yourself firmly on the path towards becoming an industry-ready
+                    developer.</p>
+                    
+                    <p>Further Your Learning. Want a more in-depth way to study JavaScript, where you’ll learn by <br>building real projects that you can use in your
+                    professional portfolio?</p>
+                    <p>Check out our unlimited access package. You’ll get instant access to all 200+ courses on our platform, all of which are
+                    kept up-to-date with these constantly evolving technologies.
+                    </p>
+                    <p>Oh, and Wikipedia informs me that 1995 also marks the year in which ISP’s like AOL </p> 
+                    <p>and Prodigy offered up mainstream access to the World Wide Web for the first time, <br>releasing browsers that made ‘surfing the web’ easily accessible to the
+                    general public.
+
+                    </p>
+
+                </article>
+            </section>
+           
+            <section class="main-section" id="Widely_Used">
+            <header>
+                <h3>Widely Used</h3>
+            </header>
+                <ul>
+                    <p>No one can deny JavaScript is of the most popular, as it is actively used by <br>
+                        Google, Facebook, Microsoft, Ebay and Many others </p>
+                </ul>
+            </section>
+            
+            
+            <section class="main-section" id="It's_Definition">
+            <header>
+                <h3>It's Definition</h3>
+            </header>
+                    <article>
+                        <p>
+                            JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every
+                            time a web page does more than just sit there and display static information for you to look at — displaying timely
+                            content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that
+                            JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which
+                            (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.
+
+                        </p>
+
+                    </article>
+        </section>
+       
+    <section class="main-section" id="System_Requirements">
+        <header>
+            <h3>System Requirements</h3>
+        </header>
+            <ul>
+                Browser, Code Editor & Willingness to learn
+            </ul>
+    
+    </section>
+    
+
+    <header>
+    <section class="main-section" id="Data_Types_&_Structures">
+        <header>
+            <h3>Data Types & Structures</h3>
+        </header>
+                <article>
+                <p>
+<h2>JavaScript data types and data structures</h2>
+Programming languages all have built-in data structures, but these often differ from one language to another. This
+article attempts to list the built-in data structures available in JavaScript and what properties they have. These can
+be used to build other data structures. Wherever possible, comparisons with other languages are drawn.
+
+<li>Dynamic typing</li>
+JavaScript is a loosely typed and dynamic language. Variables in JavaScript are not directly associated with any
+particular value type, and any variable can be assigned (and re-assigned) values of all types:
+
+<code> let foo = 42;  // foo is now a number
+foo = 'bar'; // foo is now a string
+foo = true; // foo is now a boolean
+</code>
+
+<li>Data and Structure types</li>
+The latest ECMAScript standard defines nine types:
+
+<li>Six Data Types that are primitives, checked by typeof operator:</li>
+<code>
+undefined : typeof instance === "undefined"
+Boolean : typeof instance === "boolean"
+Number : typeof instance === "number"
+String : typeof instance === "string"
+BigInt : typeof instance === "bigint"
+Symbol : typeof instance === "symbol"
+</code>
+
+<li>Structural Types:</li>
+<article>
+    <p>Object : typeof instance === "object". Special non-data but Structural type for any constructed object instance also
+used as data structures: new Object, new Array, new Map, new Set, new WeakMap, new WeakSet, new Date and almost
+everything made with new keyword;</p>
+
+<li> Function : </li>
+ <p> a non-data structure, though it also answers for typeof operator: typeof instance === "function". This is
+merely a special shorthand for Functions, though every Function constructor is derived from Object constructor.</p>
+
+<li>Structural Root Primitive:</li>
+typeof instance === "object". Special primitive type having additional usage for its value: if object is not
+inherited, then null is shown;</p>
+
+<p> Keep in mind the only valuable purpose of typeof operator usage is checking the Data Type. If we wish to check any
+Structural Type derived from Object it is pointless to use typeof for that, as we will always receive "object". The
+proper way to check what sort of Object we are using is the instanceof keyword. But even in that case there might be
+misconceptions. </p>
+</article>
+
+<p>As we can see the meaning of every primitive type is obvious except of undefined and null which are almost the same.
+This happens as the concept of Time is strictly connected with the purpose of algorithms. We can purport something that
+does not yet exist or does not exist anymore: undefined. But when we wish to be able to represent something that exists
+being empty, we have to invent another keyword. And that is what null stands for: the beginning of structural meaning.
+</p>
+</article>
+
+    </section>
+
+
+<section class="main-section" id="First_Program">
+    <header>
+            <h3>First Program</h3>
+    </header>
+            <article>
+            <h4> JavaScript Program To Print Hello World</h4>
+            <p>In this example, you will learn to print 'Hello World' in JavaScript in three different ways.</p>
+            <p>
+            A "Hello, World!" is a simple program that prints Hello, World! on the screen. <br>Since it's a very simple program, this
+            program is often used to introduce a new programming language to beginners.</p>
+            
+            <h4>We will use these three ways to print 'Hello, World!'. </h4>
+
+            <code>
+            console.log()
+            alert()</code>
+            <code>
+            document.write()
+            1. Using console.log()
+            console.log() is used in debugging the code.
+            </code>
+
+            <h4>Source Code</h4>
+            <code>
+            // the hello world program
+            console.log('Hello World');
+            Output</code>
+            
+            <code>Hello, World!</code>
+            
+            <h4>Here, the first line is a comment.</h4>
+            
+           <code>// the hello world program </code>
+            
+           <h4>The second line</h4>
+
+            <code>
+            console.log('Hello, World!');
+            prints the 'Hello, World!' string to the console.
+            </code>
+           
+           <code>2. Using alert()
+            The alert() method displays an alert box over the current window with the specified message.
+            </code>
+
+            <h4>Source Code</h4>
+            <code>
+            // the hello world program
+            alert("Hello, World!");
+            3. Using document.write()
+            document.write() is used when you want to print the content to the HTML document.
+            </code>
+            Source Code
+            <code>
+            // the hello world program
+            document.write('Hello, World!');
+            </code>
+            </article>
+            </p>
+
+        
+    </section>
+
+    <section class="main-section" id="Useful_Resources">
+    <header>
+        <h3>Useful Resources</h3>
+    </header>
+    <ul>
+        Go to freecodecamp, Sololearn and Many Others!
+    </ul>
+    </section>
+   
+
+    </main>
+<nav id="navbar">
+<header>
+    
+    <h3>JavaScript Documentation</h3>
+</header>
+<ul class="navlist">
+    <li>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    </li>
+    <li>
+    <a class="nav-link" href="#Widely_Used">Widely Used</a>
+    </li>
+    <li>
+    <a class="nav-link" href="#It's_Definition">It's Definition</a>
+    </li>    
+    <li>
+    <a class="nav-link" href="#System_Requirements">System Requirements</a>
+    </li>
+    <li>
+    <a class="nav-link" href="#Data_Types_&_Structures">Data Types & Structures</a>
+    </li>
+    <li>
+    <a class="nav-link" href="#First_Program">First Program</a>
+    </li>
+    <li>
+    <a class="nav-link" href="#Useful_Resources">Useful Resources</a>
+    </li>
+</ul>
+</nav>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
